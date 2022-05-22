@@ -83,7 +83,7 @@ main div h2{
 }
 #tabela1 tr th{
     background-image: linear-gradient(to bottom, #bae9eb, #d1b8e9);
-    border: #1f0635 double 8px;
+    border: #ab2a7c double 8px;
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.23) 5px 5px 0px;
 }
@@ -102,40 +102,18 @@ main div h2{
     text-align: center;
     width: 300px;
     background-image: linear-gradient(to bottom, #bae9eb, #d1b8e9);
-    border:#1f0635 double 8px;
+    border:#ab2a7c double 8px;
     padding: 30px;
 }
 #certificados img{
     box-shadow: rgba(0, 0, 0, 0.211) 5px 5px 0px;
-    border:#1f0635 double 8px;
+    border:#ab2a7c double 8px;
 }
 
 table{
     margin: auto;
 }
-/*PROJETOS*/
-#projetos ul{
-    padding: 50px;
-    background-image: linear-gradient(to top,#f99aaf,#c4b5e9);
-    height: 170px;
-    border: solid 1.5px;
-    box-shadow: rgba(0, 0, 0, 0.282) 5px 5px 0px;
-    margin: auto;
-    width: 500px;
-    height: 50px;
-}
-#projetos ul li{
-    color: #22999d;
-}
-#projetos ul li a{
-    font-family: monospace;
-    color: #472468;
-    text-decoration: none;
-    font-size: larger;
-}
-#projetos ul li a:hover{
-    text-decoration: underline;
-}
+
 /*RODAPÉ*/
 footer{
     text-align: center;
