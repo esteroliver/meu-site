@@ -8,13 +8,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div id="principal">
         <header>
-            <h1>Bem-vindo(a)!</h1>
-            <p>Meu nome é Ester Oliveira. Sou técnico em informática e estou aprendendo sobre desenvolvimento web full-stack. Esse é o meu site de apresentação!</p>
+            <div>
+                <h1 class="titulo">Bem-vindo(a)!</h1>
+                <p>Meu nome é Ester Oliveira. Sou técnico em informática e estou aprendendo sobre desenvolvimento web full-stack.</p>
+            </div>
+            <div id="box2">
+                <p><em>Uma breve apresentação sobre mim:</em></p>
+                <p>Tenho 17 anos e atualmente estou no quarto ano de ensino técnico do IFRN. Sou apaixonada pela área de tecnologia e é nela que desejo seguir. Fiz esse site com o intuito de praticar minhas habilidades e demonstrar elas para outras pessoas. Espero que goste!</p>
+            </div>
+            <aside>
+                <nav>
+                    <ul>
+                        <li><a href="#linguagens-ferramentas">Linguagens & Ferramentas</a></li>
+                        <li><a href="#formacao">Formação</a></li>
+                        <li><a href="#certificados">Certificados</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                    </ul>
+                </nav>
+            </aside>
         </header>
         <main>
             <div id="linguagens-ferramentas">
+                <h2>Linguagens & Ferramentas</h2>
                 <table>
                     <tr>
                         <th>
@@ -39,16 +56,17 @@
                 </table>
             </div>
             <div id="formacao">
-                <div>
-                    <p>Aluna do curso técnico de informática integrado ao médio no IFRN.</p>
-                    <img src="imagens/Logotipo_IFET.svg.png" alt="logo do instituto federal" width="100px" height="170px">
-                </div>
+                <h2>Formação</h2>
+                <p>Aluna do curso técnico de informática integrado ao médio no IFRN.</p>
+                <img src="imagens/Logotipo_IFET.svg.png" alt="logo do instituto federal" width="100px" height="170px">
             </div>
             <div id="certificados">
+                <h2>Certificados</h2>
                 <p>Certificado no módulo 1 de HTML5 e CSS3 do Curso em vídeo.</p>
                 <img src="imagens/certificado.JPG" alt="certificado do curso" width="500px" height="400px">
             </div>
             <div id="projetos">
+                <h2>Projetos</h2>
                 <ul>
                     <li><a href="#">Galeria de Artes Virtual Vatenor de Oliveira</a></li>
                     <li><a href="#">Formulário Rafaela Ballerini</a></li>
@@ -57,7 +75,7 @@
             </div>
         </main>
         <footer>
-            <p>Desenvolvido por Ester Oliveira.</p>
+            <p>Desenvolvido por Ester Oliveira, técnica em informática.</p>
         </footer>
     </div>
 </body>

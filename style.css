@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Prata&family=Secular+One&family=Source+Serif+4:opsz@8..60&display=swap');
+body{
+    background-image: linear-gradient(to bottom, #2fe5eb, #9a53dd);
+    margin: 40px;
+}
+
+:root{
+    --fonte-titulo: 'Secular One', sans-serif;
+}
+
+header{
+    display: flex;
+}
+header div{
+    background-image: url(imagens/Design\ sem\ nome.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: right;
+    padding: 20px;
+    width: 500px;
+    height: 282px;
+    padding-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.282) 5px 5px 5px;
+}
+#box2{
+    background-image: url(imagens/Design\ sem\ nome.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: left;
+    text-indent: 2em;
+    width: 500px;
+    height: 282px;
+    padding-top: 40px;
+    margin-top: 200px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.282) 5px 5px 5px;
+}
+#box2 p {
+    padding: 10px;
+}
+.titulo{
+    font-family: var(--fonte-titulo);
+    color: #472468;
+    text-shadow: rgba(0, 0, 0, 0.211) 5px 5px 5px;
+}
+header div p{
+    color: #472468;
+    font-family: var(--fonte-titulo);
+    text-shadow: rgba(0, 0, 0, 0.211) 2px 2px 2px;
+}
+header aside{
+    background-image: linear-gradient(to top,#f99aaf,#c4b5e9);
+    list-style: armenian;
+    height: 170px;
+    border: solid 1.5px;
+    box-shadow: rgba(0, 0, 0, 0.282) 5px 5px 5px;
+}
+header aside ul li{
+    color: #22999d;
+
+
+}
+header aside ul li a{
+    font-family: var(--fonte-titulo);
+    color: #472468;
+    text-decoration: none;
+}
+
+
+/*PÁGINA PRINCIPAL*/
