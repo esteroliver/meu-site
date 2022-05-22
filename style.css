@@ -69,7 +69,7 @@ header aside ul li a{
 }
 
 
-/*PÁGINA PRINCIPAL*/
+/*PÁGINA PRINCIPAL - ferramentas*/
 main div h2{
     font-family: var(--fonte-titulo);
     color: #472468;
@@ -77,18 +77,49 @@ main div h2{
     font-size: xx-large;
     text-align: center;
 }
-table{
+#tabela1{
     margin: auto;
     border-spacing: 20px;
 }
-table tr th{
+#tabela1 tr th{
     background-image: linear-gradient(to bottom, #bae9eb, #d1b8e9);
-    border-radius: 10px;
+    border: #1f0635 double 8px;
+    padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.23) 5px 5px 0px;
 }
-table tr th p{
+#tabela1 tr th p{
     font-family: var(--fonte-titulo);
     text-shadow: rgba(0, 0, 0, 0.211) 5px 5px 0px;
     font-size: 20px;
     color: #1f0635;
+}
+
+/*PÁGINA PRINCIPAL - certificados*/
+#certificados table tr th p {
+    color: #1f0635;
+    font-family: var(--fonte-titulo);
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    background-image: linear-gradient(to bottom, #bae9eb, #d1b8e9);
+    border:#1f0635 double 8px;
+    padding: 30px;
+}
+#certificados img{
+    box-shadow: rgba(0, 0, 0, 0.211) 5px 5px 0px;
+    border:#1f0635 double 8px;
+}
+
+table{
+    margin: auto;
+}
+
+/*RODAPÉ*/
+footer{
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    color: #1f0635;
+    background-color: #22999d;
+    margin: -40px;
+    padding: 10px;
 }
