@@ -18,7 +18,7 @@ header div{
     text-align: right;
     padding: 20px;
     width: 500px;
-    height: 278px;
+    height: 274px;
     padding-top: 40px;
     box-shadow: rgba(0, 0, 0, 0.282) 5px 5px 0px;
 }
@@ -30,7 +30,7 @@ header div{
     text-align: left;
     text-indent: 2em;
     width: 500px;
-    height: 280px;
+    height: 274px;
     padding-top: 40px;
     margin-top: 200px;
     margin-left: 20px;
@@ -113,13 +113,39 @@ main div h2{
 table{
     margin: auto;
 }
-
+/*PROJETOS*/
+#projetos ul{
+    padding: 50px;
+    background-image: linear-gradient(to top,#f99aaf,#c4b5e9);
+    height: 170px;
+    border: solid 1.5px;
+    box-shadow: rgba(0, 0, 0, 0.282) 5px 5px 0px;
+    margin: auto;
+    width: 500px;
+    height: 50px;
+}
+#projetos ul li{
+    color: #22999d;
+}
+#projetos ul li a{
+    font-family: monospace;
+    color: #472468;
+    text-decoration: none;
+    font-size: larger;
+}
+#projetos ul li a:hover{
+    text-decoration: underline;
+}
 /*RODAPÉ*/
 footer{
     text-align: center;
     font-family: var(--fonte-titulo);
     color: #1f0635;
-    background-color: #22999d;
     margin: -40px;
+    margin-top: 100px;
     padding: 10px;
+    
+}
+footer a{
+    color: #1f0635;
 }
